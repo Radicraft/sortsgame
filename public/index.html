@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SORTS: The Word Library · Trace words, blast the board</title>
+<meta name="description" content="SORTS is a premium, ad-free word puzzle for iPhone and iPad. Trace words across chunky letter blocks, set off colour-chain cascades, and play through 200 hand-tuned levels bound into illustrated books. Free to play.">
+<link rel="canonical" href="https://sortsgame.com/">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SORTS: The Word Library">
+<meta property="og:description" content="Trace. Spell. Blast. Repeat. A premium, ad-free word game where every letter is a piece of movable type. Free to play on iPhone and iPad.">
+<meta property="og:url" content="https://sortsgame.com/">
+<meta property="og:image" content="https://sortsgame.com/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "SORTS: The Word Library",
+  "alternateName": "SORTS",
+  "url": "https://sortsgame.com/",
+  "description": "A premium, ad-free word puzzle game for iPhone and iPad. Trace words across a board of letter blocks in any direction; scored words burst and matching colours chain into cascades. 300 hand-tuned levels across three illustrated books, the Compositor's Cabinet letterpress match-3, a Daily Edition, same-room duels, Guilds and an Endless Mode.",
+  "operatingSystem": "iOS, iPadOS",
+  "applicationCategory": "GameApplication",
+  "genre": ["Word game", "Puzzle"],
+  "gamePlatform": ["iPhone", "iPad"],
+  "publisher": {"@type": "Organization", "name": "White Wiki", "url": "https://whitewiki.org"},
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "GBP", "description": "Free to play with an optional Pressroom Pass subscription. No ads."},
+  "screenshot": [
+    "https://sortsgame.com/screens/1-game.webp",
+    "https://sortsgame.com/screens/2-shelf.webp",
+    "https://sortsgame.com/screens/3-map.webp"
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#day">Skip to content</a>
+
+<!-- ============ THE STAGE ============ -->
+<div class="stage" id="stage">
+  <div class="topbar"><div class="bar">
+    <a class="brand" href="/"><span class="btile">S</span> SORTS</a>
+    <nav aria-label="Main">
+      <a href="#day">The game</a><a href="#night">The guilds</a><a href="/support/">Support</a>
+    </nav>
+  </div></div>
+
+  <div class="stage-copy">
+    <p class="eyebrow">SORTS · The Word Library</p>
+    <h1 class="hl" id="hl">
+      <span class="w" data-word="TRACE"></span><span class="dot">.</span>
+      <span class="w" data-word="SPELL"></span><span class="dot">.</span>
+      <span class="w" data-word="BLAST"></span><span class="dot">.</span>
+      <span class="w" data-word="REPEAT"></span><span class="dot">.</span>
+    </h1>
+    <div class="after" id="after">
+      <p class="lede">Every letter is a piece of movable type, and one clever word can clear the screen. 300 hand-tuned levels, a fresh Daily, duels across the table, no ads, ever.</p>
+      <div class="ctas"><a class="badge" href="#APPSTORE" aria-label="Download on the App Store"><img src="/assets/appstore-badge.svg" alt="Download on the App Store" width="180" height="60"></a></div>
+      <p class="soon">Coming soon to iPhone &amp; iPad · Free to play</p>
+    </div>
+  </div>
+
+  <p class="hint" id="hint">Your turn. Trace any word, three letters or more.</p>
+  <div class="case" id="case" aria-label="A playable board of letter tiles. Drag across adjacent letters to spell a word.">
+    <div class="pill-float" id="pill"><span class="cp">CLEAN PULL!</span><span class="wd"></span><span class="pt"></span></div>
+    <svg id="tracer" aria-hidden="true"></svg>
+  </div>
+  <div class="scrollcue" id="cue" aria-hidden="true">▾</div>
+</div>
+
+<!-- ============ DAY ============ -->
+<div class="day" id="day">
+  <div class="wrap">
+    <p class="kicker">Why you'll get hooked</p>
+    <h2>Pick up in sixty seconds. Or lose an hour. Your call.</h2>
+    <div class="goldrule"></div>
+    <p class="sub">Drag your finger across touching letter blocks in any direction, turning corners as you go. Lift off and any real word of three letters or more scores instantly. Scored blocks burst, the board falls like candy, and matching colours chain into cascades with bigger and bigger bonuses the longer they run.</p>
+    <figure class="preview">
+      <video id="pv" muted loop playsinline preload="metadata" poster="/media/sorts-preview-poster.jpg" width="540" height="1170">
+        <source src="/media/sorts-preview.mp4" type="video/mp4">
+      </video>
+      <figcaption>Thirty seconds of SORTS in play.</figcaption>
+    </figure>
+    <div class="day-cards">
+      <div class="dc"><h3>Three illustrated books</h3><p>300 hand-tuned levels along a hand-drawn story trail, a hundred to a book. Every level you clear turns another page.</p></div>
+      <div class="dc"><h3>The Compositor's Cabinet</h3><p>A letterpress match-3, new to SORTS. Match the inks, set your stick, and print the word.</p></div>
+      <div class="dc"><h3>The Daily Edition</h3><p>A fresh printed puzzle every day, with build-a-streak rewards, daily gifts and quests.</p></div>
+      <div class="dc"><h3>Same-room duels</h3><p>Two phones, one table, sixty seconds. No accounts to add, just tap in, race a friend, and build a rivalry record.</p></div>
+      <div class="dc"><h3>Endless Mode</h3><p>A countdown you extend with every word you score. How long can you last?</p></div>
+    </div>
+  </div>
+
+  <div class="rail" aria-label="Screenshots from the game">
+    <div class="shot-card"><img src="/screens/1-game.webp" width="720" height="1554" loading="lazy" alt="A SORTS level in play: a page earned mid-cascade with a x3 combo running"></div>
+    <div class="shot-card"><img src="/screens/2-shelf.webp" width="720" height="1554" loading="lazy" alt="The Shelf: choosing Book One, A Pocketful of North, with its engraved cover"></div>
+    <div class="shot-card"><img src="/screens/3-map.webp" width="720" height="1554" loading="lazy" alt="The hand-drawn level map with a winding trail and a you-are-here marker"></div>
+    <div class="shot-card"><img src="/screens/4-cabinet.webp" width="720" height="1554" loading="lazy" alt="The Compositor's Cabinet: a letterpress match-3 where you match inks and print the word"></div>
+    <div class="shot-card"><img src="/screens/5-duel.webp" width="720" height="1554" loading="lazy" alt="A same-room duel: two players racing on one board with 44 seconds left"></div>
+    <div class="shot-card"><img src="/screens/6-daily.webp" width="720" height="1554" loading="lazy" alt="The Parlour: today's Daily Edition with a streak of six"></div>
+    <div class="shot-card"><img src="/screens/9-endless.webp" width="720" height="1554" loading="lazy" alt="The Endless Shelf, buying more time with every word"></div>
+    <div class="shot-card"><img src="/screens/10-profile.webp" width="720" height="1554" loading="lazy" alt="The Pressman profile: collectable sorts, pressmarks and inks"></div>
+  </div>
+  <p class="rail-note">Swipe ☞</p>
+
+  <div class="wrap" style="margin-top:80px">
+    <p class="kicker">Free means the whole game</p>
+    <h2>No ads. No pay-to-win. No catch.</h2>
+    <div class="goldrule"></div>
+    <div class="split">
+      <div class="col">
+        <h3>Free to play</h3>
+        <p class="price">Forever · No ads</p>
+        <ul>
+          <li>The full 300-level campaign, all three books</li>
+          <li>The Daily Edition, with build-a-streak rewards</li>
+          <li>Same-room duels with friends</li>
+          <li>Guilds, the Guild League and leaderboards</li>
+          <li>Endless Mode, three runs a day</li>
+        </ul>
+      </div>
+      <div class="col pass">
+        <h3>Pressroom Pass</h3>
+        <p class="price">Optional · Monthly or annual</p>
+        <ul>
+          <li>Double coins from everything you play</li>
+          <li>Unlimited Endless Mode</li>
+          <li>Every tile skin and ink colour in the Print Shop</li>
+          <li>All members-only Titles</li>
+          <li>A starter pack of boosters, plus daily coins</li>
+        </ul>
+      </div>
+    </div>
+    <p class="fineprint">The Pressroom Pass auto-renews at the price shown for your country unless cancelled at least 24 hours before the period ends. Manage renewal in your Apple Account settings. Your progress stays with your Apple Account either way.</p>
+  </div>
+</div>
+
+<!-- ============ DUSK / NIGHT / DAWN ============ -->
+<div class="dusk" id="night">
+  <div class="line"><p>But when the lamps go down, the library keeps a different set of books.</p></div>
+</div>
+
+<div class="night">
+  <div class="wrap">
+    <p class="kicker-n">After hours</p>
+    <h2>What the guilds keep.</h2>
+    <p class="sub-n">Five hands to a guild. Weekly scores pooled toward a shared goal, finest words shelved in a Commonplace Book, and a League that remembers everything.</p>
+    <div class="night-grid">
+      <ul class="rites">
+        <li data-n="i."><b>The Guild Library.</b> The finest words your guild sets are shelved together, credited in ink to whoever pulled them.</li>
+        <li data-n="ii."><b>The Guild League.</b> Division by division, guild against guild, every week.</li>
+        <li data-n="iii."><b>The Forbidden Section.</b> A restricted volume appears each week. It opens for no single player. Your guild earns it together, or not at all.</li>
+      </ul>
+      <div class="shot-card"><img src="/screens/7-guild.webp" width="720" height="1554" loading="lazy" alt="The Guild Hall of The Foundry: weekly guild points, the Guild Library and the leaderboard"></div>
+    </div>
+    <div class="night-grid">
+      <div class="shot-card"><img src="/screens/8-forbidden.webp" width="720" height="1554" loading="lazy" alt="The Forbidden Section: Volume Fifteen, Midnight Errata, roped off until the guild earns enough points"></div>
+      <div>
+        <p class="kicker-n" style="text-align:left">This week's volume</p>
+        <h3 class="rite-h">Midnight Errata.</h3>
+        <p class="rite-p">Volume Fifteen waits behind the velvet rope. The rope drops when your guild's weekly points climb high enough, and every word counts.</p>
+      </div>
+    </div>
+    <div class="seal" aria-hidden="true">F·S</div>
+    <p class="seal-cap">A fresh volume is issued every Monday.</p>
+  </div>
+</div>
+
+<div class="dawn" aria-hidden="true"></div>
+<div class="morning">
+  <h2>Then it's morning, and there's a Daily to play.</h2>
+  <p class="sub">Whether you love a relaxing word search, a brainy crossword-style challenge, or the rush of a cascade, SORTS blends them into something new. Trace your first word and feel the board come alive.</p>
+  <p style="margin-top:28px"><a class="badge" href="#APPSTORE" aria-label="Download on the App Store"><img src="/assets/appstore-badge.svg" alt="Download on the App Store" width="180" height="60"></a></p>
+  <p class="soon">Coming soon to iPhone &amp; iPad</p>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p class="orn">❦ ❦ ❦</p>
+    <p class="fm">SORTS · The Word Library</p>
+    <p>A premium, ad-free word game created by <a href="https://whitewiki.org">Michael White</a> of White Wiki.</p>
+    <p><a href="/support/">Support</a> &nbsp;·&nbsp; <a href="/privacy/">Privacy Policy</a> &nbsp;·&nbsp; <a href="mailto:hello@sortsgame.com">Contact</a></p>
+  </div>
+</footer>
+
+<script src="/assets/hero.js" defer></script>
+</body>
+</html>

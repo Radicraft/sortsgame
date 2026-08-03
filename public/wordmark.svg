@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <!-- SORTS wordmark — "Option B+" lockup (Pressman's Ink identity).
+       SORTS in an old-style serif, iron-gall ink, the leading S inked vermilion
+       (the one sort that caught the red); thin gold masthead rules + the
+       "THE WORD LIBRARY" tagline in letter-spaced small caps. Transparent ground
+       (a parchment card is drawn behind for preview; delete <rect id="card"> for
+       a transparent export). Serif renders via font-family; convert to outlines in
+       a vector editor for a final locked master. -->
+  <defs>
+    <style>
+      .serif { font-family: "Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif; }
+      .sans  { font-family: -apple-system,"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif; }
+    </style>
+  </defs>
+
+  <!-- preview card (parchment). Remove for transparent PNG/SVG. -->
+  <rect id="card" width="1200" height="620" fill="#ECE2CF"/>
+
+  <!-- top masthead rule (gold hairline, thick+thin) -->
+  <g stroke="#B28636">
+    <line x1="220" y1="150" x2="980" y2="150" stroke-width="4"/>
+    <line x1="220" y1="164" x2="980" y2="164" stroke-width="1.5"/>
+  </g>
+
+  <!-- SORTS: leading S vermilion, ORTS iron-gall. A soft letterpress impression
+       sits a few px behind each glyph. -->
+  <g class="serif" font-weight="700" font-size="300" text-anchor="middle">
+    <!-- impression (dark, offset) -->
+    <text x="604" y="424" fill="#201C16" opacity="0.18">SORTS</text>
+    <!-- ink -->
+    <text x="600" y="418" fill="#201C16">SORTS</text>
+    <!-- re-ink just the leading S in vermilion, aligned to the same metrics -->
+    <text x="600" y="418" fill="#C23E29"><tspan>S</tspan><tspan fill="#00000000">ORTS</tspan></text>
+  </g>
+
+  <!-- bottom masthead rule -->
+  <g stroke="#B28636">
+    <line x1="220" y1="470" x2="980" y2="470" stroke-width="1.5"/>
+    <line x1="220" y1="484" x2="980" y2="484" stroke-width="4"/>
+  </g>
+
+  <!-- tagline: small caps, letter-spaced -->
+  <text x="600" y="548" text-anchor="middle" class="sans" font-size="40"
+        font-weight="700" letter-spacing="16" fill="#6C624F">THE WORD LIBRARY</text>
+</svg>

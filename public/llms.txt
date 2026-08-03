@@ -1,0 +1,31 @@
+# SORTS: The Word Library
+
+> SORTS is a premium, ad-free word puzzle game for iPhone and iPad by White Wiki
+> (whitewiki.org). Players trace words across a board of chunky letter blocks in any
+> direction; any real word of three letters or more scores on lift-off, scored blocks
+> burst, and matching colours chain into cascades. Free to play; no ads; no pay-to-win.
+
+## Key facts
+- Full name: SORTS: The Word Library. Platform: iOS and iPadOS. Status: coming soon.
+- Campaign: 300 hand-tuned levels across three illustrated books (a hundred to a
+  book), with page-gated chapters. Pages are earned through play and cannot be bought.
+- Modes: Daily Edition in The Parlour (streak rewards), the Compositor's Cabinet
+  (a letterpress match-3: match inks, set the stick, print the word), Endless Mode
+  (free players get 3 runs a day), same-room 60-second duels (free, no accounts needed).
+- Social: Guilds of up to 5 players, weekly pooled scores, a shared Guild Library
+  (Commonplace Book), the Guild League, and a weekly Forbidden Section volume that a
+  guild unlocks together.
+- Monetisation: free to play with an optional Pressroom Pass subscription (monthly or
+  annual: double coins, unlimited Endless Mode, all Print Shop tile skins and inks,
+  members-only Titles, starter boosters). Optional coin packs. No ads either way.
+- Privacy: no ads, no third-party advertising or analytics SDKs, no data sold. Player
+  data lives in Apple iCloud (CloudKit) and Game Center; purchases are handled by Apple.
+
+## Pages
+- https://sortsgame.com/ : the game, features, screenshots, free vs Pressroom Pass.
+- https://sortsgame.com/support/ : how to play, pages vs coins, purchases and the
+  Pressroom Pass, guilds, account and data, troubleshooting, contact email.
+- https://sortsgame.com/privacy/ : the full privacy policy.
+
+## Contact
+- Support email: hello@sortsgame.com

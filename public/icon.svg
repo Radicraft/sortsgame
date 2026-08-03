@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- SORTS app icon — "The Impression" (Pressman's Ink reskin, 2026-07-19):
+       a printer's-vermilion tile with a cream keyline and a big serif S printed
+       on it with a letterpress emboss. Rhymes with the wordmark's inked S. -->
+  <defs>
+    <linearGradient id="verm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D5482F"/>
+      <stop offset="1" stop-color="#A72C1A"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.30" r="0.75">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- vermilion field + soft top light -->
+  <rect width="1024" height="1024" fill="url(#verm)"/>
+  <rect width="1024" height="1024" fill="url(#light)"/>
+
+  <!-- faint laid-paper ruling, barely there -->
+  <g stroke="#3A0E06" stroke-width="2" opacity="0.06">
+    <line x1="0" y1="256" x2="1024" y2="256"/>
+    <line x1="0" y1="384" x2="1024" y2="384"/>
+    <line x1="0" y1="512" x2="1024" y2="512"/>
+    <line x1="0" y1="640" x2="1024" y2="640"/>
+    <line x1="0" y1="768" x2="1024" y2="768"/>
+  </g>
+
+  <!-- cream inner keyline -->
+  <rect x="98" y="98" width="828" height="828" rx="118" fill="none"
+        stroke="#F6EAD2" stroke-width="10" opacity="0.55"/>
+
+  <!-- the printed serif S: dark impression behind, cream ink on top -->
+  <text x="512" y="748" font-family="Georgia,'Times New Roman',serif" font-weight="bold"
+        font-size="690" fill="#4E1108" opacity="0.38" text-anchor="middle">S</text>
+  <text x="512" y="740" font-family="Georgia,'Times New Roman',serif" font-weight="bold"
+        font-size="690" fill="#F6EAD2" text-anchor="middle">S</text>
+</svg>
