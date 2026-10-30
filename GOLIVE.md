@@ -53,13 +53,14 @@ Same flow as inklinenews.com. Domain: sortsgame.com (already registered at SiteG
 5. Commit and push; Cloudflare redeploys automatically.
 
 ## Notes
-- The gameplay video lives at `public/media/sorts-preview.mp4` (2.1 MB, muted, loops,
+- The gameplay video lives at `public/media/sorts-preview-1.4.mp4` (2.3 MB, muted, loops,
   plays only while on screen). To update it, re-encode any portrait MP4 to 540px wide.
-- Screenshots live in `public/screens/` as 720w WebP. To update, export new PNGs and
-  re-run any image tool at 720 wide, quality ~82.
+- Screenshots live in `public/screens/` as 720w WebP (the 1.4 set is `14-*.webp`). `/screens/*`
+  is cached as immutable, so give replacements NEW file names rather than overwriting.
+  To update, export new PNGs and re-run any image tool at 720 wide, quality ~82.
 - Support email across the site is hello@sortsgame.com (Cloudflare Email Routing,
   Stage 4). Until routing is enabled, mail to that address will bounce.
 - The hero performance: tap anywhere during the intro to skip it. Reduce Motion users
   get the finished headline and a live board immediately.
-- Privacy effective date is 12 July 2026 (from your policy). Update the date in
+- Privacy effective date is 30 October 2026 (rewritten for 1.4). Update the date in
   `public/privacy/index.html` whenever the policy changes.

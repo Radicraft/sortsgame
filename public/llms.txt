@@ -1,30 +1,52 @@
 # SORTS: The Word Library
 
-> SORTS is a premium, ad-free word puzzle game for iPhone and iPad by White Wiki
-> (whitewiki.org). Players trace words across a board of chunky letter blocks in any
-> direction; any real word of three letters or more scores on lift-off, scored blocks
-> burst, and matching colours chain into cascades. Free to play; no ads; no pay-to-win.
+> SORTS is an ad-free word puzzle game for iPhone and iPad by White Wiki
+> (whitewiki.org), listed on the App Store as "SORTS: Cosy Letterpress Words".
+> Players trace words across a board of chunky letter blocks, up, down, left or right
+> with turns allowed (no diagonals); any real word of three letters or more scores on
+> lift-off, scored blocks burst, and matching inks chain into cascades. Free to
+> download; one optional purchase; no ads; no subscription.
 
 ## Key facts
-- Full name: SORTS: The Word Library. Platform: iOS and iPadOS. Status: coming soon.
-- Campaign: 300 hand-tuned levels across three illustrated books (a hundred to a
-  book), with page-gated chapters. Pages are earned through play and cannot be bought.
-- Modes: Daily Edition in The Parlour (streak rewards), the Compositor's Cabinet
-  (a letterpress match-3: match inks, set the stick, print the word), Endless Mode
-  (free players get 3 runs a day), same-room 60-second duels (free, no accounts needed).
-- Social: Guilds of up to 5 players, weekly pooled scores, a shared Guild Library
-  (Commonplace Book), the Guild League, and a weekly Forbidden Section volume that a
-  guild unlocks together.
-- Monetisation: free to play with an optional Pressroom Pass subscription (monthly or
-  annual: double coins, unlimited Endless Mode, all Print Shop tile skins and inks,
-  members-only Titles, starter boosters). Optional coin packs. No ads either way.
+- Full name: SORTS: The Word Library. Platform: iOS and iPadOS, with a layout made for
+  iPhone Duo. Status: live on the App Store; current version 1.4 (October 2026).
+- App Store: https://apps.apple.com/us/app/sorts-word-trace-puzzle-game/id6790195358
+- Campaign: 600 hand-tuned levels across six engraved storybooks (a hundred to a book),
+  four chapters per book sealed by page gates. Books: A Pocketful of North, The Hungry
+  Spoon, Harbour Lights, The Moon's Spare Key, The Tinker's Drawer, The Turning Year.
+- Seasonal book: The Patchwork Man, a cosy retelling after Mary Shelley's Frankenstein,
+  a hundred levels, free for everyone, with a season ledger of keepsakes.
+- Difficulty: Hard and Super Hard levels carry wax seals; other levels can set their
+  page marks by the player's form (a Settings switch turns this off).
+- Modes: the Daily Edition (one shared puzzle a day, streaks), the Compositor's Cabinet
+  (a letterpress match-3: match inks, then print a word for double score), Endless
+  ("The Book With No Last Page"), same-room 60-second duels over Wi-Fi or Bluetooth
+  with no internet needed.
+- Social: friends (codes or In the Room), Guilds of up to 5 players pooling weekly
+  points, the Guild Library and Commonplace Book, the Guild League, and a weekly
+  Forbidden Section volume a guild opens together. Game Center leaderboards.
+- What is free: Books One and Two (200 levels), the seasonal book, the Daily Edition,
+  duels, friends, guilds, the Forbidden Section, three Endless runs and one Cabinet
+  bed a day.
+- The Full Library: one non-consumable purchase that opens Books Three to Six (400
+  levels) and every campaign book added later, unlimited Endless and Cabinet, the
+  premium track of every season ledger, and the Patron's Set of cosmetics. Players from
+  before version 1.4 and former Pressroom Pass holders get it free. Coins and the
+  Pressroom Pass were retired in 1.4.
+- Pages: earned by playing, never sold; spent in the Bindery on titles, inks and tile
+  styles.
+- Sound and feel: recorded sound effects, music and haptics, each with its own switch.
+- Accessibility: colour-blind shapes, a relaxed clock, VoiceOver, Switch Control,
+  Dynamic Type, Bold Text, Increase Contrast and Reduce Motion.
 - Privacy: no ads, no third-party advertising or analytics SDKs, no data sold. Player
-  data lives in Apple iCloud (CloudKit) and Game Center; purchases are handled by Apple.
+  data lives in Apple iCloud and Game Center; purchases are handled by Apple.
 
 ## Pages
-- https://sortsgame.com/ : the game, features, screenshots, free vs Pressroom Pass.
-- https://sortsgame.com/support/ : how to play, pages vs coins, purchases and the
-  Pressroom Pass, guilds, account and data, troubleshooting, contact email.
+- https://sortsgame.com/ : the game, features, screenshots, what is free and what The
+  Full Library adds, guilds.
+- https://sortsgame.com/support/ : how to play, pages and the Bindery, wax-sealed
+  levels, The Full Library and restoring purchases, players from before 1.4, guilds and
+  friends, iPad and iPhone Duo, sound, accessibility, troubleshooting, contact email.
 - https://sortsgame.com/privacy/ : the full privacy policy.
 
 ## Contact
